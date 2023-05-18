@@ -1,0 +1,11 @@
+{
+  "app": {
+    "title": "JSON TRANSLATION: {{parameter}}",
+    "items": {
+      "item1": "MY ITEM 1",
+      "item2": "MY ITEM 2",
+      "item3": "MY ITEM 3",
+      "item4": "MY ITEM 4"
+    }
+  }
+}

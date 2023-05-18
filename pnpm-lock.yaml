@@ -28,6 +28,9 @@ devDependencies:
   prettier:
     specifier: 2.8.8
     version: 2.8.8
+  qwik-speak:
+    specifier: ^0.13.0
+    version: 0.13.0(@builder.io/qwik@1.1.4)
   typescript:
     specifier: 5.0.4
     version: 5.0.4
@@ -2766,6 +2769,16 @@ packages:
 
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+    dev: true
+
+  /qwik-speak@0.13.0(@builder.io/qwik@1.1.4):
+    resolution: {integrity: sha512-bEvQarUNBKJkBdRzE2wgdkqokDGeYmaWag6PZGH83+oiNCOfPlvU925OhUm/xRRBuogUHyqPrv8uIn5twh2+7A==}
+    engines: {node: '>=16.0.0'}
+    hasBin: true
+    peerDependencies:
+      '@builder.io/qwik': '>=1.0.0'
+    dependencies:
+      '@builder.io/qwik': 1.1.4(undici@5.22.1)
     dev: true
 
   /readdirp@3.6.0:

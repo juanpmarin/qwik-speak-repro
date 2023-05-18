@@ -20,7 +20,8 @@
     "preview": "qwik build preview && vite preview --open",
     "serve": "wrangler pages dev ./dist",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "qwik-speak-extract": "qwik-speak-extract --supportedLangs=en-US,it-IT --assetsPath=i18n"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.1.4",
@@ -32,6 +33,7 @@
     "eslint": "8.40.0",
     "eslint-plugin-qwik": "^1.1.4",
     "prettier": "2.8.8",
+    "qwik-speak": "^0.13.0",
     "typescript": "5.0.4",
     "undici": "5.22.1",
     "vite": "4.3.7",
