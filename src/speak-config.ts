@@ -11,4 +11,5 @@ export const config: SpeakConfig = {
     { lang: "en-US", currency: "USD", timeZone: "America/Los_Angeles" },
   ],
   assets: [],
+  runtimeAssets: ["app"],
 };
