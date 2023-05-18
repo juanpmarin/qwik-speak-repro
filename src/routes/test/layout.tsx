@@ -1,9 +1,9 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { Slot, component$ } from "@builder.io/qwik";
 import { Speak } from "qwik-speak";
 
 export default component$(() => {
   return (
-    <Speak assets={["app"]}>
+    <Speak assets={["test"]}>
       <Slot />
     </Speak>
   );
